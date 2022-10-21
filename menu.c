@@ -30,59 +30,22 @@ int main()
         {
         case 1:
             system("cls");
-            printf("        Cadastro\n");
-            printf(" ------------------------\n");
-            printf("|  1. Área do cliente    |\n");
-            printf("|  2. Equipe PIM.invest  |\n");
-            printf("|  0. Voltar             |\n");
-            printf(" ------------------------\n\n");
-
-            printf("Escolha a opção desejada.\n");
-            scanf("%d", &opcao_cad);
+            cadastro();
             break;
 
         case 2:
             system("cls");
-            printf("   Relatórios\n");
-            printf(" ---------------\n");
-            printf("|  1. Clientes  |\n");
-            printf("|  2. Empresa   |\n");
-            printf("|  0. Voltar    |\n");
-            printf(" ---------------\n\n");
-
-            printf("Escolha a opção desejada.\n");
-            scanf("%d", &opcao_rlt);
+            relatorios();
             break;
 
         case 3:
             system("cls");
-            printf("   Cronograma\n");
-            printf(" ---------------\n");
-            printf("|  1. Semanal  |\n");
-            printf("|  2. Mensal   |\n");
-            printf("|  0. Voltar   |\n");
-            printf(" ---------------\n\n");
-
-            printf("Escolha a opção desejada.\n");
-            scanf("%d", &opcao_crono);
+            relatorios();
             break;
 
         case 4:
             system("cls");
-            printf("   Avisos\n");
-            printf(" -----------\n");
-            printf("|  !avisos  |\n");
-            printf("|  !avisos  |\n");
-            printf("|  0. Voltar  |\n");
-            printf(" -----------\n\n");
-
-            printf("Escolha a opção desejada.\n");
-            scanf("%d", &opcao_crono);
-            break;
-
-        case 0:
-            system("cls");
-            printf("Deseja voltar ao menu principal?");
+            avisos();
             break;
 
         default:
@@ -91,8 +54,75 @@ int main()
     } while (continuar);
 }
 
+int cadastro() {
+    system("cls");
+    printf("        Cadastro\n");
+    printf(" ------------------------\n");
+    printf("|  1. Área do cliente    |\n");
+    printf("|  2. Equipe PIM.invest  |\n");
+    printf("|  0. Voltar             |\n");
+    printf(" ------------------------\n\n");
+
+    printf("Escolha a opção desejada.\n");
+    scanf("%d", &opcao_cad);
+
+    switch(opcao_cad)
+    {
+    case 1:
+        system("cls");
+        printf("CCCCCC");
+        getche();
+        break;
+        }
+
+}
+
+int area_cliente() {
+    system("cls");
+    printf("OIIIII");
+}
+
+int relatorios() {
+    system("cls");
+    printf("   Relatórios\n");
+    printf(" ---------------\n");
+    printf("|  1. Clientes  |\n");
+    printf("|  2. Empresa   |\n");
+    printf("|  0. Voltar    |\n");
+    printf(" ---------------\n\n");
+
+    printf("Escolha a opção desejada.\n");
+    scanf("%d", &opcao_rlt);
+}
+
+int cronograma() {
+    system("cls");
+    printf("   Cronograma\n");
+    printf(" ---------------\n");
+    printf("|  1. Semanal  |\n");
+    printf("|  2. Mensal   |\n");
+    printf("|  0. Voltar   |\n");
+    printf(" ---------------\n\n");
+
+    printf("Escolha a opção desejada.\n");
+    scanf("%d", &opcao_crono);
+}
+
+int avisos() {
+    system("cls");
+    printf("   Avisos\n");
+    printf(" ---------------\n");
+    printf("|    |\n");
+    printf("|  2. Mensal   |\n");
+    printf("|  0. Voltar   |\n");
+    printf(" ---------------\n\n");
+
+    printf("Escolha a opção desejada.\n");
+    scanf("%d", &opcao_crono);
+}
+
 //   Precisa:
 //   . ver como faz pra voltar pro menu CONSEGUIIII
 //   . criar função pro menu inicial e chamar CONSEGUIIIIII
-//   . colocar mais opçoes dentro das opcoes
+//   . colocar mais opçoes dentro das opcoes CONSEGUINDOOO
 //   . ver utf8
