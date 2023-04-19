@@ -1,16 +1,6 @@
-# pimba
-bobeou a gente
+# PIM | Projeto Integrado Multidisciplinar | 2º Semestre
+Análise e Desenvolvimento de Sistemas | UNIP Santos
 
-projeto integrado multidisciplinar
-turma de ads - 2sem de 2022
+Tema: Gerenciador de tarefas de uma Startup
 
-tema: gerenciador de tarefas de uma startup
-
-colab:
-catarina godoy
-nathalia
-andreza
-tg
-alicia
-
-MDS TD BAGUNÇADO
+Apenas parte do projeto está disponível aqui.
